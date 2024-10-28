@@ -1,0 +1,11 @@
+﻿<Window x:Class="KeyboardTrainer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Клавиатурный тренажер" Height="350" Width="525">
+    <Grid>
+        <TextBlock x:Name="TextToType" FontSize="24" Margin="10" />
+        <TextBox x:Name="UserInput" FontSize="24" Margin="10,50,10,10" TextChanged="UserInput_TextChanged"/>
+        <Button x:Name="StartButton" Content="Начать" Click="StartButton_Click" Width="100" Height="30" Margin="10,100,0,0" />
+        <TextBlock x:Name="ResultText" FontSize="18" Margin="10,140,327,10" />
+    </Grid>
+</Window>
